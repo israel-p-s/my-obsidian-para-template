@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "af8823613e20602e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ee15770d9fee1db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04b97ff4178b2932",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Area.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f271d9ae68b6041",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0eb34407552e46f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f894826b12f51a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85724e78f73d1b08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c5041c0c7ce54091",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "17fbbe98773229b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc2bfe2bebb6e81b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7001a9e721ebc632",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/Area.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fbbb6aabd784ed7b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/Area.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b7590c83cdc1baef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "55fb2f1d3fd7fdb4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/Area.md"
+              }
+            }
+          },
+          {
+            "id": "b7cd0257251d5298",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "daily-notes:Open today's daily note": false
+    }
+  },
+  "active": "9f894826b12f51a3",
+  "lastOpenFiles": [
+    "Templates/Note.md",
+    "Templates/Resource.md",
+    "HOME.md",
+    "HOME.canvas",
+    "3 - Resources/Untitled.md",
+    "0 - Notes/2024-01-08.md",
+    "1 - Projects/Untitled.md",
+    "HOME copy.md",
+    "2 - Areas/Python.md",
+    "a.json",
+    "HOME.canvas.md",
+    "Templates/Project.md",
+    "Templates/Area.md",
+    "pngimg.com - buttons_PNG89.png",
+    "0 - 1 - Projects/Untitled.md",
+    "0 - 1 - Projects",
+    "0 - Notes/Untitled.md",
+    "2024-01-08.md",
+    "link-to-your-dashboard.md",
+    "1 - Projects/Python project.md",
+    "3 - Resources/Python Resource.md",
+    "3.Resources/Test 2.md",
+    "2.Areas/Test.md",
+    "Test.md",
+    "Test.md",
+    "Templates/Untitled",
+    "1.Projects/Project.template.md",
+    "Templates",
+    "2.Areas/Area.template.md",
+    "Templates",
+    "0 - Notes",
+    "Spaces/Home",
+    "Spaces",
+    "4 - Archive",
+    "3 - Resources",
+    "Welcome.md"
+  ]
+}

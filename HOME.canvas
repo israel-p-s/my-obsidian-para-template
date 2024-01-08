@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"type":"text","text":"## 📌 Actions\n> Access your daily notes and quickly create new items in your system.\n\n[Open Today's Note](obsidian://advanced-uri?vault=Second%20Brain&daily=true)\n[Create New Area](obsidian://advanced-uri?vault=Second%20Brain&filepath=2%20-%20Areas/Untitled.md&mode=new)\n[Create New Project](obsidian://advanced-uri?vault=Second%20Brain&filepath=1%20-%20Projects/Untitled.md&mode=new)\n[Create New Resource](obsidian://advanced-uri?vault=Second%20Brain&filepath=3%20-%20Resources/Untitled.md&mode=new)","id":"actions","x":-750,"y":-510,"width":380,"height":270,"color":"1"},
+		{"type":"text","text":"## 🧠 Areas\n> Define your spheres of interest and ongoing activities.\n```dataview\nTABLE area_principal, description\nFROM \"2 - Areas\"\nSORT file.mtime desc\nLIMIT 10\n```","id":"areas","x":-750,"y":40,"width":570,"height":600,"color":"5"},
+		{"type":"text","text":"## 📚 Resources\n> Organize and reference your thematic or topical materials.\n```dataview\nlist from \"3 - Resources\"\nSORT file.mtime desc\nLIMIT 25\n```","id":"resources","x":-370,"y":-510,"width":380,"height":550,"color":"3"},
+		{"type":"text","text":"## 🗑️ Archives\n> Store and archive your inactive or completed items.\n```dataview\nlist from \"4 - Archive\"\nSORT file.mtime desc\nLIMIT 5\n```","id":"archives","x":10,"y":-510,"width":380,"height":550,"color":"6"},
+		{"type":"text","text":"## 📄 Projects\n> Manage your goal-oriented tasks and deadlines.\n```dataview\nTABLE start_date, end_date, status\nFROM \"1 - Projects\"\nSORT file.mtime desc\nLIMIT 10\n```","id":"projects","x":-180,"y":40,"width":570,"height":600,"color":"2"},
+		{"type":"text","text":"## 📊 Statistics\n> Insightful metrics to track your productivity and engagement.\n```dataview\nLIST WITHOUT ID \"**Total Number of Notes**: \" + length(rows.file.link)\nWHERE file.name != this.file.name\nAND file.folder != \"Templates\"\nAND file.name != \"HOME\"\nGROUP BY true\n```\n```dataview\nLIST WITHOUT ID \"**Notes Created This Week**: \" + length(rows.file.link) \nWHERE created >= this.week\nAND file.name != this.file.name\nAND file.folder != \"Templates\"\nAND file.name != \"HOME\"\nGROUP BY true\n```","id":"statistics","x":-750,"y":-240,"width":380,"height":280,"color":"4"}
+	],
+	"edges":[]
+}

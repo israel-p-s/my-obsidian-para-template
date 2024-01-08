@@ -1,0 +1,36 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "FasHouseChimneyUser",
+      "FasHouseChimney",
+      "FasBucket",
+      "FasBook",
+      "FasBrain"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true
+  },
+  "0 - Notes": "FasNoteSticky",
+  "1 - Projects": "FasFileLines",
+  "2 - Areas": "FasBrain",
+  "3 - Resources": "FasBook",
+  "4 - Archive": "FasBucket",
+  "HOME.md": "FasHouseChimney",
+  "HOME.canvas": "FasHouseChimneyUser"
+}
