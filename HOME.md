@@ -36,7 +36,7 @@ color green
 
 ## 🧠 Areas
 ```dataview
-TABLE area_principal, description 
+TABLE domain 
 FROM "2 - Areas" 
 SORT file.mtime desc 
 LIMIT 10

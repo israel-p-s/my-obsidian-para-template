@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasFolderOpen",
+      "FasFile",
       "FasHouseChimneyUser",
       "FasHouseChimney",
-      "FasBucket",
-      "FasBook",
-      "FasBrain"
+      "FasBucket"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -27,10 +27,11 @@
     "iconsInNotesEnabled": true
   },
   "0 - Notes": "FasNoteSticky",
-  "1 - Projects": "FasFileLines",
+  "1 - Projects": "FasFolderOpen",
   "2 - Areas": "FasBrain",
   "3 - Resources": "FasBook",
   "4 - Archive": "FasBucket",
   "HOME.md": "FasHouseChimney",
-  "HOME.canvas": "FasHouseChimneyUser"
+  "HOME.canvas": "FasHouseChimneyUser",
+  "5 - Files": "FasFile"
 }

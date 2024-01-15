@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5ee15770d9fee1db",
+        "id": "4a653a58608a46d1",
         "type": "tabs",
         "children": [
           {
-            "id": "04b97ff4178b2932",
+            "id": "1e0601ff4e4f70c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Area.md",
-                "mode": "source",
+                "file": "3 - Resources/Amazon Redshift Best Practices.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -51,7 +51,7 @@
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "17fbbe98773229b5",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Area.md",
+                "file": "3 - Resources/Amazon Redshift Best Practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Area.md",
+                "file": "3 - Resources/Amazon Redshift Best Practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Area.md"
+                "file": "3 - Resources/Amazon Redshift Best Practices.md"
               }
             }
           },
@@ -140,9 +140,19 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "6b9ae0474eaed6c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "3 - Resources/Amazon Redshift Best Practices.md"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -151,51 +161,55 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
+      "canvas:Create new canvas": true,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "daily-notes:Open today's daily note": false
+      "templater-obsidian:Templater": true,
+      "daily-notes:Open today's daily note": true
     }
   },
-  "active": "9f894826b12f51a3",
+  "active": "1e0601ff4e4f70c3",
   "lastOpenFiles": [
-    "Templates/Note.md",
-    "Templates/Resource.md",
-    "HOME.md",
+    "5 - Files/redshift-logo.png",
+    "5 - Files/redshift-architecture.png",
+    "4 - Archive/Understanding Use-Cases for NoSQL Over Relational Databases.md",
+    "3 - Resources/Amazon Redshift Best Practices.md",
+    "4 - Archive/Storage and Processing in Big Data - Understanding Distributed File Systems and Data Processing.md",
+    "4 - Archive/Starting with the Basics of Distributed Systems and the Concept of Big Data.md",
+    "4 - Archive/Starting with Basic SQL and Database Knowledge.md",
+    "4 - Archive/Star and Snowflake schemas.md",
+    "4 - Archive/SQL Window Function Cheat sheet.md",
+    "4 - Archive/SQL Basics Cheat sheet.md",
+    "4 - Archive/Relational Databases vs NoSQL Database - How to choose?.md",
+    "4 - Archive/Python focused in Data Learning Path (Roadmap).md",
+    "4 - Archive/Practicing Data Modeling and Database Design.md",
+    "4 - Archive/Mastering SQL Basics - SELECT, INSERT, UPDATE, DELETE.md",
+    "4 - Archive/Mastering AWS Data Services for Data Engineering.md",
+    "4 - Archive/Learning to Implement and Query NoSQL Databases.md",
+    "4 - Archive/Learning ETL Processes.md",
+    "4 - Archive/Joining Data in SQL Cheat sheet.md",
+    "4 - Archive/Getting Started with AWS Core Services.md",
+    "4 - Archive/Fundamentals of Databases.md",
+    "4 - Archive/Fundamentals of Data Engineering.md",
+    "4 - Archive/Exploring the Basics of Document and Key-Value Store Databases.md",
+    "4 - Archive/Exploring OLTP and OLAP in Data Engineering.md",
+    "4 - Archive/Exploring Data Warehousing and Big Data Technologies.md",
+    "4 - Archive/Exploring Big Data Technologies - Hadoop and Spark.md",
+    "4 - Archive/Diving into Apache Airflow - Creating DAGs and Configuring Tasks.md",
+    "4 - Archive/Designing Normalized Database Schemas.md",
+    "3 - Resource",
+    "5 - Files/Joining_Data_in_SQL_Cheat_Sheet.pdf",
+    "5 - Files/SQL_Basics_For_Data_Science.pdf",
+    "5 - Files/SQL_Window_Functions.pdf",
+    "5 - Files",
     "HOME.canvas",
-    "3 - Resources/Untitled.md",
-    "0 - Notes/2024-01-08.md",
-    "1 - Projects/Untitled.md",
-    "HOME copy.md",
-    "2 - Areas/Python.md",
+    "Untitled.canvas",
+    "3 - Resources/Untitled",
     "a.json",
-    "HOME.canvas.md",
-    "Templates/Project.md",
-    "Templates/Area.md",
     "pngimg.com - buttons_PNG89.png",
-    "0 - 1 - Projects/Untitled.md",
     "0 - 1 - Projects",
-    "0 - Notes/Untitled.md",
-    "2024-01-08.md",
-    "link-to-your-dashboard.md",
-    "1 - Projects/Python project.md",
-    "3 - Resources/Python Resource.md",
-    "3.Resources/Test 2.md",
-    "2.Areas/Test.md",
-    "Test.md",
-    "Test.md",
     "Templates/Untitled",
-    "1.Projects/Project.template.md",
-    "Templates",
-    "2.Areas/Area.template.md",
-    "Templates",
-    "0 - Notes",
-    "Spaces/Home",
-    "Spaces",
-    "4 - Archive",
-    "3 - Resources",
-    "Welcome.md"
+    "Templates"
   ]
 }

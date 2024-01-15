@@ -3,5 +3,6 @@
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "Templates/"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

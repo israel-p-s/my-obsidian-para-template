@@ -1,23 +1,56 @@
 ---
 type: Area
-area_id: unique-area-id
+tags:
+  - tags
 creation_date: <% tp.file.creation_date("YYYY-MM-DD HH:mm") %>
-last_modified: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm") %>
 domain: e.g. technology, finance, health
 priority: e.g. high, medium, low
+description: brief description of the area
 ---
-
-# <% tp.file.title %>
-
-## Description
-Brief description of the area.
-
 ## Related Projects
-```dataview
-LIST FROM "1 - Projects" WHERE area_id = this.id
+```dataviewjs
+const currentTags = dv.current().file.tags;
+const folderPath = "1 - Projects";
+
+if (currentTags) {
+    const pages = dv.pages()
+        .where(page => page.file.path.startsWith(folderPath + "/") && 
+                       page.file.tags &&
+                       page.file.tags.some(tag => currentTags.includes(tag)));
+
+    if (pages.length > 0) {
+        pages.forEach(page => {
+            const title = page.file.name;
+            dv.paragraph(`- [[${page.file.path}|${title}]]`);
+        });
+    } else {
+        dv.paragraph("None projects found.");
+    }
+} else { 
+    dv.paragraph("Tags not added.");
+}
 ```
 ## Related Resources
+```dataviewjs
+const currentTags = dv.current().file.tags;
+const folderPath = "3 - Resources";
 
-```dataview
-LIST FROM "3 - Resources" WHERE area_id = this.id
+if (currentTags) {
+    const pages = dv.pages()
+        .where(page => page.file.path.startsWith(folderPath + "/") && 
+                       page.file.tags &&
+                       page.file.tags.some(tag => currentTags.includes(tag)));
+
+    if (pages.length > 0) {
+        pages.forEach(page => {
+            const title = page.file.name;
+            dv.paragraph(`- [[${page.file.path}|${title}]]`);
+        });
+    } else {
+        dv.paragraph("None resources found.");
+    }
+} else { 
+    dv.paragraph("Tags not added.");
+}
 ```
+
